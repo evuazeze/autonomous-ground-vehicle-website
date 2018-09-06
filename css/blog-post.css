@@ -5,12 +5,18 @@
  */
 
 body {
-  padding-top: 54px;
+  /*padding-top: 54px;*/
   font-size: 18px;
 }
 
 @media (min-width: 992px) {
   body {
-    padding-top: 56px;
+    /*padding-top: 56px;*/
   }
 }
+
+.hero {
+	width: 100%;
+	margin: 20px 0;
+}
+
