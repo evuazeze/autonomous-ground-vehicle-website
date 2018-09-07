@@ -4,10 +4,12 @@
  * Licensed under MIT (https://github.com/BlackrockDigital/startbootstrap-blog-post/blob/master/LICENSE)
  */
 
+
 body {
   /*padding-top: 54px;*/
   font-size: 18px;
 }
+
 
 @media (min-width: 992px) {
   body {
@@ -15,8 +17,18 @@ body {
   }
 }
 
+
 .hero {
 	width: 100%;
 	margin: 20px 0;
 }
 
+
+.btn {
+	box-shadow: 8px 10px 20px 0 rgba(46,61,73,.15);
+}
+
+a:hover {
+	/*color: #fff!important;*/
+	box-shadow: 8px 10px 20px 0 rgba(46,61,73,.1);
+}
