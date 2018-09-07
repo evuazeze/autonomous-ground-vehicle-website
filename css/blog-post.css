@@ -25,15 +25,31 @@ h1 {
 	box-shadow: 8px 10px 20px 0 rgba(46,61,73,.15);
 }
 
+.media {
+	/*min-width: 250px;*/
+}
+
 
 a:hover {
 	box-shadow: 8px 10px 20px 0 rgba(46,61,73,.1);
 }
 
 
+@media (min-width: 450px) {
+  .media {
+  	width: 320px;
+  }
+}
+
+
+
 @media (min-width: 590px) {
   h1 {
     font-size: 1.8rem;
+  }
+
+  .media {
+  	width: 320px;
   }
 }
 
