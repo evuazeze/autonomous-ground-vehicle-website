@@ -6,15 +6,12 @@
 
 
 body {
-  /*padding-top: 54px;*/
+  padding-top: 27px;
   font-size: 18px;
 }
 
-
-@media (min-width: 992px) {
-  body {
-    /*padding-top: 56px;*/
-  }
+h1 {
+	font-size: 1.5rem;
 }
 
 
@@ -28,7 +25,29 @@ body {
 	box-shadow: 8px 10px 20px 0 rgba(46,61,73,.15);
 }
 
+
 a:hover {
-	/*color: #fff!important;*/
 	box-shadow: 8px 10px 20px 0 rgba(46,61,73,.1);
 }
+
+
+@media (min-width: 590px) {
+  h1 {
+    font-size: 1.8rem;
+  }
+}
+
+
+@media (min-width: 770px) {
+  h1 {
+    font-size: 2.5rem;
+  }
+}
+
+
+@media (min-width: 992px) {
+  h1 {
+    font-size: 2.3rem;
+  }
+}
+
